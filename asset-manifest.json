@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/coberg-react-task/static/css/main.e13a319d.css",
-    "main.js": "/coberg-react-task/static/js/main.b03d8f4d.js",
+    "main.js": "/coberg-react-task/static/js/main.d79826ea.js",
     "static/js/453.17961fff.chunk.js": "/coberg-react-task/static/js/453.17961fff.chunk.js",
     "static/media/slick.svg": "/coberg-react-task/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/coberg-react-task/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -9,11 +9,11 @@
     "static/media/slick.woff": "/coberg-react-task/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/coberg-react-task/index.html",
     "main.e13a319d.css.map": "/coberg-react-task/static/css/main.e13a319d.css.map",
-    "main.b03d8f4d.js.map": "/coberg-react-task/static/js/main.b03d8f4d.js.map",
+    "main.d79826ea.js.map": "/coberg-react-task/static/js/main.d79826ea.js.map",
     "453.17961fff.chunk.js.map": "/coberg-react-task/static/js/453.17961fff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e13a319d.css",
-    "static/js/main.b03d8f4d.js"
+    "static/js/main.d79826ea.js"
   ]
 }
