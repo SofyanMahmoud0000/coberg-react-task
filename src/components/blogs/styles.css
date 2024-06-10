@@ -1,0 +1,19 @@
+/* styles.css */
+.view-all-button {
+  background-color: #4B2A63 !important;
+  padding: 15px 50px !important;
+  color: #FFF !important;
+}
+
+.container { 
+  background-color: #F5FCFF;
+  padding: 20px 50px !important;
+  padding: 20px 0px 50px;
+}
+
+.slick-next:before {
+  color: #4B2A63 !important;
+}
+.slick-prev:before {
+  color: #4B2A63 !important;
+}
