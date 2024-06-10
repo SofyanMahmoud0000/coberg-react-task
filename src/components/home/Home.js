@@ -6,7 +6,7 @@ const Home = () => {
     <>
       <div className="home-interiors-section">
         <div className="image-container">
-          <img src={'/img7.jpeg'} alt="Home Interior" />
+          <img src={`${process.env.PUBLIC_URL}/img7.jpeg`} alt="Home Interior" />
         </div>
         <div className="text-container">
           <h2>Get personalised home interiors</h2>

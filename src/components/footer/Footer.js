@@ -29,7 +29,7 @@ const Footer = () => {
         >
           <Grid item xs={4} sx={{ display: { xs: 'none', md: 'unset' } }}>
 
-            <img style={{ width: '100px', textAlign: 'left', display: 'flex', marginLeft: '-27px' }} src='/logo.png' alt='text' />
+            <img style={{ width: '100px', textAlign: 'left', display: 'flex', marginLeft: '-27px' }} src={`${process.env.PUBLIC_URL}/logo.png`} alt='text' />
 
           </Grid>
           <Grid item xs={4} sx={{ display: { xs: 'none', md: 'unset' } }}>
@@ -131,7 +131,7 @@ const Footer = () => {
           <Grid item xs={12} sx={{ display: { xs: 'unset', md: 'none' } }}>
             <Container maxWidth="sm" sx={{ padding: '40px 0' }} style={{ textAlign: 'center' }}>
 
-              <img style={{ width: '100px', textAlign: 'center'}} src='/logo.png' alt='text' />
+              <img style={{ width: '100px', textAlign: 'center'}} src={`${process.env.PUBLIC_URL}/logo.png`} alt='text' />
 
               <Typography variant="h6" component="div" gutterBottom>
                 landinteriors@gmail.com

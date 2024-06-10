@@ -1,10 +1,10 @@
 let data = [
   {
-    imagePath: '/whatWeDo1.jpeg'
+    imagePath: `${process.env.PUBLIC_URL}/whatWeDo1.jpeg`
   },{
-    imagePath: '/whatWeDo2.jpeg'
+    imagePath: `${process.env.PUBLIC_URL}/whatWeDo2.jpeg`
   },{
-    imagePath: '/whatWeDo3.jpeg'
+    imagePath: `${process.env.PUBLIC_URL}/whatWeDo3.jpeg`
   },
 ]
 

@@ -34,7 +34,7 @@ const Header = () => {
       <AppBar position="static" style={{ backgroundColor: '#F8F8F8', boxShadow: 'none' }}>
         <Container maxWidth="xl">
           <Toolbar disableGutters>
-            <img style={{ width: '100px' }} src='/logo.png' alt='text' sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
+            <img style={{ width: '100px' }} src={`${process.env.PUBLIC_URL}/logo.png`} alt='text' sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
 
             <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'flex-end' }}>
               {header_options.map((page) => (
