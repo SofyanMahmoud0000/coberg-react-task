@@ -1,0 +1,7 @@
+services:
+  app:
+    container_name: coberg-react-task
+    image: coberg-react-app
+    build: ./
+    ports:
+      - 3000:3000
