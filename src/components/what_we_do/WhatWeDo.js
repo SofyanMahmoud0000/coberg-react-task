@@ -14,8 +14,8 @@ const WhatWeDo = () => {
         justifyContent="center"
       >
         {
-          data.map(item => (
-            <Item imagePath={item.imagePath} />
+          data.map((item, idx) => (
+            <Item key={idx} imagePath={item.imagePath} idx = {idx} />
           ))
         }
       </Grid>

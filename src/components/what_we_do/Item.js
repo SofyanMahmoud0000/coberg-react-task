@@ -4,7 +4,7 @@ import CardMedia from '@mui/material/CardMedia';
 import { CardActionArea } from '@mui/material';
 import Grid from '@mui/material/Grid';
 
-const Item = ({imagePath}) => {
+const Item = ({imagePath, idx}) => {
   return (
     <Grid item xs={6} sm={6} md={3}>
       <Card sx={{ maxWidth: 300, display: 'inline-grid' }}>

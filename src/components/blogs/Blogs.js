@@ -36,8 +36,8 @@ const Blogs = () => {
       <h2>Blogs</h2>
       <Slider style={{padding: '50px 0px' }} {...settings}>
         {
-          data.map((item) => (
-            <Item imagePath={item.path} title={item.title} body={item.body} cardWidth={cardWidth}/>
+          data.map((item, idx) => (
+            <Item key = {idx} imagePath={item.path} title={item.title} body={item.body} cardWidth={cardWidth}/>
           ))
         }
       </Slider>

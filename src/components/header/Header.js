@@ -15,7 +15,7 @@ import MenuItem from '@mui/material/MenuItem';
 
 const header_options = ['Join as Design Expert', 'Partner with LAND Interiors'];
 const pages = ['About', 'Project', 'Studio', 'Blog', 'Contact'];
-
+const pages_and_options = pages.concat(header_options);
 const Header = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
 
@@ -77,7 +77,7 @@ const Header = () => {
                   display: { xs: 'block', md: 'none' },
                 }}
               >
-                {header_options.map((page) => (
+                {pages_and_options.map((page) => (
                   <MenuItem key={page} onClick={handleCloseNavMenu}>
                     <Typography textAlign="center">{page}</Typography>
                   </MenuItem>

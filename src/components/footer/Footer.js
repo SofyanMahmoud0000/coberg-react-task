@@ -20,7 +20,7 @@ const Footer = () => {
         justifyContent="center"
         style={{ backgroundColor: '#F8F8F8' }}
       >
-        <Grid container
+        <Grid container item
           spacing={0}
           alignItems="center"
           justifyContent="center"
@@ -51,7 +51,7 @@ const Footer = () => {
             </Container>
           </Grid>
         </Grid>
-        <Grid container
+        <Grid container item
           spacing={0}
           alignItems="flex-start"
           justifyContent="center"
@@ -92,7 +92,7 @@ const Footer = () => {
             </Container>
           </Grid>
         </Grid>
-        <Grid container
+        <Grid container item
           spacing={0}
           alignItems="center"
           justifyContent="center"
@@ -101,17 +101,17 @@ const Footer = () => {
         >
           <Grid item xs={4} sx={{ display: { xs: 'none', md: 'unset' } }}>
             <Container maxWidth="sm" sx={{ padding: '40px 0' }} style={{ textAlign: 'left' }}>
-              {social_medias.map((SocialComponent) => (
-                <SocialComponent fontSize='large'/>
+              {social_medias.map((SocialComponent, idx) => (
+                <SocialComponent key={idx} fontSize='large'/>
               ))}
             </Container>
           </Grid>
           <Grid item xs={8} sx={{ display: { xs: 'none', md: 'unset' } }}>
             <Container maxWidth="sm" sx={{ padding: '40px 0' }} style={{ textAlign: 'right' }}>
             <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'flex-end' }}>
-              {footer_links.map((page) => (
-                <Button
-                  key={page}
+              {footer_links.map((page, idx) => (
+                <Button 
+                  key={idx}
                   sx={{ my: 2, color: '#451A64', display: 'block' }}
                 >
                   {page}
@@ -121,7 +121,7 @@ const Footer = () => {
             </Container>
           </Grid>
         </Grid>
-        <Grid container
+        <Grid container item
           spacing={0}
           alignItems="center"
           justifyContent="center"
@@ -138,8 +138,8 @@ const Footer = () => {
                 <br></br>
                 +91 98987 65656
               </Typography>
-              {social_medias.map((SocialComponent) => (
-                <SocialComponent fontSize='large'/>
+              {social_medias.map((SocialComponent, idx) => (
+                <SocialComponent key={idx} fontSize='large'/>
               ))}
             </Container>
           </Grid>
