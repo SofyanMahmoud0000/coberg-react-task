@@ -3,6 +3,9 @@ This project is for coberg company as a front-end assessment
 
 ![website](https://github.com/sofyanmahmoud0000/coberg-react-task/blob/master/.git_media/git_main_section.png)
 
+## Demo
+You can see a demo by clicking 👉 [here](https://sofyanmahmoud0000.github.io/coberg-react-task/)
+
 ## Installation
 
 ### Pre-requisites
@@ -29,7 +32,7 @@ This project is for coberg company as a front-end assessment
   You will get something like that
   ![docker output](https://github.com/sofyanmahmoud0000/coberg-react-task/blob/master/.git_media/git_docker_output.png)
 
-* Congratulation 😃!!, you can navigate this url [http://localhost:3000](http://localhost:3000) to see the project
+* Congratulation 💥😃!!, you can navigate this url [http://localhost:3000](http://localhost:3000) to see the project
 
 ## Development and support 
 If you have any questions on how to use this project, or have ideas for future development, 
